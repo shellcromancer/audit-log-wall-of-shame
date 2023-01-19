@@ -1,0 +1,12 @@
+<tr>
+    <td><a href="{{ .url }}">{{ .name }}</a></td>
+    <td> {{ .percent_increase }} </td>
+    <td>
+        <ul>
+            {{ range .issues }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </td>
+    <td> {{ .grade }} </td>
+</tr>

@@ -1,0 +1,14 @@
+baseURL = 'https://audit-logs.tax/'
+languageCode = 'en-us'
+title = 'Audit Logs Wall of Shame'
+
+theme = 'cayman-hugo-theme'
+
+[params]
+  # Header text, can be markdown
+  project_name = "Audit Logs Wall of Shame"
+  project_tagline = "A list of vendors that don't prioritize high-quality, widely-available audit logs for security and operations teams."
+
+  # Footer text, can be markdown
+  footer = """[audit-log-wall-of-shame](https://github.com/shellcromancer/audit-log-wall-of-shame) is maintained by security engineers.
+Made with [Hugo](https://gohugo.io/). Themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme). Deployed to [Cloudflare Pages](https://pages.dev/)."""

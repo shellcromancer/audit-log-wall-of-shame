@@ -1,0 +1,34 @@
+{{ define "main" }}
+<main aria-role="main">
+    <header class="homepage-header">
+        <h1>{{.Title}}</h1>
+        {{ with .Params.subtitle }}
+        <span class="subtitle">{{.}}</span>
+        {{ end }}
+    </header>
+    <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+
+        <h2>The List</h2>
+        <!-- Content will be pulled from data/vendors/* and filled in via layouts/partials/vendor -->
+        <table>
+            <tr>
+                <th>Vendor</th>
+                <th>Cost Increase</th>
+                <th>Log Issues</th>
+                <th>Overall Grade</th>
+            </tr>
+            {{ range $.Site.Data.vendors }}
+            {{ partial "vendor.html" . }}
+            {{ end }}
+        </table>
+
+    </div>
+    <div>
+        {{ range first 10 .Site.RegularPages }}
+        {{ .Render "summary"}}
+        {{ end }}
+    </div>
+</main>
+{{ end }}
