@@ -1,11 +1,11 @@
 name = "GitHub"
 url = "https://github.com"
-grade = "B"
+grade = "N"
 issues = [
     "Logs don't link to company email",
     "Standard logs don't include IPs",
+    "Does not share all user activity logging with the enterprise organization",
     "Logged changes don't include both the new & old values",
-
 ]
 percent_increase = "FIXME%"
 pricing_source = "FIXME"
