@@ -1,6 +1,6 @@
 name = "Salesforce"
 url = "https://salesforce.com"
-grade = "D+"
+grade = "N"
 issues = [
     "24 hour delay in log generation",
     "Output to CSV via SOQL API sucks",
