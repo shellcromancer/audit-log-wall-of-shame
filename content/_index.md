@@ -5,7 +5,7 @@ title: The Audit Log Wall of Shame
 ### What is an audit log? 
 [DataDog](https://www.datadoghq.com/knowledge-center/audit-logging/) provides good context on what qualifies as an audit vs. system log.
 
-"The difference between audit logs and system logs (e.g., error logs, operational logs, etc.) is the information they contain, their purpose, and their immutability. Whereas system logs are designed to help developers troubleshoot errors, audit logs help organizations document a historical record of activity for compliance purposes and other business policy enforcement."
+> The difference between audit logs and system logs (e.g., error logs, operational logs, etc.) is the information they contain, their purpose, and their immutability. Whereas system logs are designed to help developers troubleshoot errors, audit logs help organizations document a historical record of activity for compliance purposes and other business policy enforcement.
 
 ### Why does this exist?
 
@@ -24,11 +24,11 @@ Let's try to answer the question, how does a security engineer judge what qualif
 Here is an attempt to define an answer.
 
 ### What can be added to this list?
-Any vendor's or open source solution's audit logging can be added to the list maintained by this site. 
+Any vendor can be added to the list if they charge a premium for audit log data.
 
-The purpose is to push those building solutions to think of the security engineering customer and give us the information to better protect the organization.
+The purpose is to push those building solutions to think of the security engineering customer and give us the information to better protect our organizations.
 
-A vendor may be a company where audit logs are only available to to high paying enterprise tiers (Zendesk), where the quality of the log itself only goes up if you pay the vendor (GitHub), or the logs are a separate package from even enterprise tiers (Salesforce). 
+For example, added sources may only provide audit logs to high paying enterprise tiers (Zendesk), provide higher quality logs with increased pricing tiers (GitHub), or have audit logs that are a separate package from even enterprise tiers (Salesforce).
 
 ### Audit Log Quality Matrix Framework
 
