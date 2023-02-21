@@ -1,12 +1,11 @@
 ---
 title: The Audit Log Wall of Shame
 ---
-<details>
-<summary> What is an audit log? </summary>
+### What is an audit log? 
 [DataDog](https://www.datadoghq.com/knowledge-center/audit-logging/) provides good context on what qualifies as an audit vs. system log.
 
 > The difference between audit logs and system logs (e.g., error logs, operational logs, etc.) is the information they contain, their purpose, and their immutability. Whereas system logs are designed to help developers troubleshoot errors, audit logs help organizations document a historical record of activity for compliance purposes and other business policy enforcement.
-</details>
+
 
 ### Why does this exist?
 
@@ -24,17 +23,14 @@ Let's try to answer the question, how does a security engineer judge what qualif
 
 Here is an attempt to define an answer.
 
-<details>
-<summary> What can be added to this list? </summary>
+### What can be added to this list? 
 Any vendor can be added to the list if they charge a premium for audit log data.
 
 The purpose is to push those building solutions to think of the security engineering customer and give us the information to better protect our organizations.
 
 For example, added sources may only provide audit logs to high paying enterprise tiers (Zendesk), provide higher quality logs with increased pricing tiers (GitHub), or have audit logs that are a separate package from even enterprise tiers (Salesforce).
-</details>
 
-<details>
-<summary> Audit Log Quality Matrix Framework </summary>
+### Audit Log Quality Matrix Framework
 
 *Log Content* (4pts)
 - Event types cover all actions taken in the system and include critical fields, such as source ip address.
@@ -52,10 +48,8 @@ For example, added sources may only provide audit logs to high paying enterprise
 - Low rate of log quality related incidents. Logs are reliable and can be taken as a source of truth.
 - There is limited latency between when an action occurs and when the log event is available.
 
-</details>
 
-<details>
-<summary> Grading Scale </summary>
+#### Grading Scale
 Log sources that are added will be graded from a scale of 0 - 10 with an associated lettering based on the Audit Log Quality Framework above.
 
 - 10/10 A+
@@ -69,10 +63,8 @@ Log sources that are added will be graded from a scale of 0 - 10 with an associa
 - 2/10 F+
 - 1/10 F
 - 0/10 F-
-</details>
 
-<details>
-<summary> What are some examples of qualities that make a log “bad”? </summary>
+### What are some examples of qualities that make a log “bad”?
 
 - Lack of information to attribute activity to a user or IP address.
 - Poor formatting and structure that makes it difficult to access required information.
@@ -83,16 +75,12 @@ Log sources that are added will be graded from a scale of 0 - 10 with an associa
 - Inconsistent formats and naming conventions that differ if you pull it via API or view it in the UI.
 - Lack of correlation indicators between two related log events.
 - Consistency in naming throughout logs (choosing to use ip_address OR source_ip)
-</details>
 
-<details>
-<summary> So how do you write good logs? </summary>
+### So how do you write good logs?
 
 This is a question I pose to the greater security community, this framework is open to suggestions and edits via the Github repository.
-</details>
 
-<details>
-<summary> References </summary>
+#### References
 
 1. [Creating Audit Logs for Security Professionsals](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
 2. [The SSO Wall of Shame](https://sso.tax/)
