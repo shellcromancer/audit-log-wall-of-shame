@@ -1,0 +1,9 @@
+name = "Slack"
+url = "https://slack.com"
+grade = "A"
+issues = [
+    "None noted at this time",
+]
+percent_increase = "FIXME%"
+pricing_source = "FIXME"
+updated_at = 2023-01-19T00:00:00.000Z

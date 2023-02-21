@@ -1,0 +1,11 @@
+name = "LastPass"
+url = "https://www.lastpass.com/"
+grade = "C"
+issues = [
+    "Lack of external documentation on what event types are available and what they represent",
+    "Poor support for Entreprise API to pull audit logs",
+    "All logs do not include the name of the object and which vault was accessed",
+]
+percent_increase = "FIXME%"
+pricing_source = "FIXME"
+updated_at = 2023-01-19T00:00:00.000Z

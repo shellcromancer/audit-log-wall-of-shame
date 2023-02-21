@@ -56,7 +56,7 @@ For example, added sources may only provide audit logs to high paying enterprise
 
 <details>
 <summary> Grading Scale </summary>
-Log sources that are added will be graded from a scale of 0 - 9 with an associated lettering based on the Audit Log Quality Framework above.
+Log sources that are added will be graded from a scale of 0 - 10 with an associated lettering based on the Audit Log Quality Framework above.
 
 - 10/10 A+
 - 9/10 A
@@ -81,6 +81,8 @@ Log sources that are added will be graded from a scale of 0 - 9 with an associat
 - Different formats depending on which internal team built each event type.
 - Inconsistent event type definitions based on how a user is accessing the system.
 - Inconsistent formats and naming conventions that differ if you pull it via API or view it in the UI.
+- Lack of correlation indicators between two related log events.
+- Consistency in naming throughout logs (choosing to use ip_address OR source_ip)
 </details>
 
 <details>
