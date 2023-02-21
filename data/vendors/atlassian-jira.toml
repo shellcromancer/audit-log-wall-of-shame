@@ -1,4 +1,4 @@
-name = "Jira"
+name = "Jira Cloud"
 url = "https://jira.atlassian.com/"
 grade = "A"
 issues = [

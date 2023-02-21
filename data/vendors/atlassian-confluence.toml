@@ -1,8 +1,8 @@
-name = "Confluence"
+name = "Confluence Cloud"
 url = "https://confluence.atlassian.com/"
 grade = "A"
 issues = [
-    "Does not include user_email or username but rather only a user_id",
+    "Does not include user.email but rather only a user.id",
 ]
 percent_increase = "FIXME%"
 pricing_source = "FIXME"

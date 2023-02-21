@@ -3,7 +3,7 @@ url = "https://salesforce.com"
 grade = "C"
 issues = [
     "24 hour delay in log generation",
-    "Output to CSV via SOQL API is incredibly difficult to use",
+    "Output to CSV via SOQL API is not user friendly",
     "Cost barrier"
 ]
 percent_increase = "FIXME%"
