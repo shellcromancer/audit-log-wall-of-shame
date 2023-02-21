@@ -1,0 +1,11 @@
+name = "Gitlab"
+url = "https://about.gitlab.com"
+grade = "B"
+issues = [
+    "Forces you to pay for the highest tier to stream events",
+    "Does not include audit events for project settings, group settings, or deployment approval activity.",
+    "The timezone used differs based on where you view audit logs (local time vs. UTC logged)",
+]
+percent_increase = "FIXME%"
+pricing_source = "FIXME"
+updated_at = 2023-01-19T00:00:00.000Z

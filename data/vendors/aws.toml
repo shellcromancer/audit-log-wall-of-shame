@@ -1,6 +1,6 @@
 name = "AWS Cloudtrail"
 url = "https://aws.amazon.com/cloudtrail"
-grade = "N"
+grade = "C+"
 issues = [
     "Nested unordered arrays that are inconsistently present in the same event IDs",
     "Unknown log delivery delays",

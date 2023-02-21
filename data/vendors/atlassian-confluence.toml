@@ -1,0 +1,9 @@
+name = "Confluence Cloud"
+url = "https://confluence.atlassian.com/"
+grade = "A"
+issues = [
+    "Does not include user.email but rather only a user.id",
+]
+percent_increase = "FIXME%"
+pricing_source = "FIXME"
+updated_at = 2023-01-19T00:00:00.000Z

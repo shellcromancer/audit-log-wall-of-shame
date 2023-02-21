@@ -1,0 +1,10 @@
+name = "Stripe"
+url = "https://stripe.com/"
+grade = "F"
+issues = [
+    "Logs only a subset of activity, no administrative audit logging",
+    "Lack of documentation on what security logging is available",
+]
+percent_increase = "FIXME%"
+pricing_source = "FIXME"
+updated_at = 2023-01-19T00:00:00.000Z
