@@ -1,0 +1,8 @@
+name = "Notion"
+url = "https://www.notion.so/"
+grade = "F"
+issues = [
+    "No API collection",
+]
+gating_mechanism = "Higher Tier (Enterprise only)"
+source = "https://www.notion.so/help/audit-log"

@@ -8,6 +8,5 @@ issues = [
     "Lack of metadata surrounding specific event types, such as failed authentication attempts to the console",
     "Not all events are logged, which are demonstrated by exploits found by attackers",
 ]
-percent_increase = "FIXME%"
-pricing_source = "FIXME"
-updated_at = 2023-01-19T00:00:00.000Z
+gating_mechanism = "Usage Based"
+source = "https://aws.amazon.com/cloudtrail/pricing/"

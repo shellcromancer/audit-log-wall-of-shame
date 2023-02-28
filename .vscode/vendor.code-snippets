@@ -1,0 +1,18 @@
+{
+	"New Vendor": {
+		"scope": "toml",
+		"prefix": "vendor",
+		"body": [
+			"name = \"$1\"",
+			"url = \"$2\"",
+			"grade = \"$3\"",
+			"issues = [",
+			"\t\"$0\"",
+			"]",
+			"gating_mechanism = \"$4\"",
+			"source = \"$5\"",
+
+		],
+		"description": "Create new vendor entry"
+	}
+}

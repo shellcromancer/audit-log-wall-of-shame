@@ -1,9 +1,9 @@
-name = "Jira Cloud"
+name = "Atlassian Cloud"
 url = "https://jira.atlassian.com/"
 grade = "A"
 issues = [
     "None noted at this time.",
 ]
-percent_increase = "FIXME%"
-pricing_source = "FIXME"
-updated_at = 2023-01-19T00:00:00.000Z
+gating_mechanism = "Higher Tier (Standard+)"
+# https://www.atlassian.com/software/jira/pricing?tab=cloud
+source = "https://support.atlassian.com/organization-administration/docs/track-organization-activities-from-the-audit-log/#Product-audit-logs"

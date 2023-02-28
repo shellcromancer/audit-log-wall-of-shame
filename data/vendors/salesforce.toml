@@ -4,8 +4,6 @@ grade = "C"
 issues = [
     "24 hour delay in log generation",
     "Output to CSV via SOQL API is not user friendly",
-    "Cost barrier"
 ]
-percent_increase = "FIXME%"
-pricing_source = "FIXME"
-updated_at = 2023-01-19T00:00:00.000Z
+gating_mechanism = "Additonal SKU"
+source = "https://www.salesforce.com/products/platform/products/shield/"
