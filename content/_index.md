@@ -85,4 +85,3 @@ This is a question I pose to the greater security community, this framework is o
 1. [Creating Audit Logs for Security Professionsals](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
 2. [The SSO Wall of Shame](https://sso.tax/)
 3. [Elastic Common Schema, Open Source Logging Fields](https://www.elastic.co/guide/en/ecs/8.6/ecs-reference.html)
-</details>

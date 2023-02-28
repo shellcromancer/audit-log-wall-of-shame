@@ -7,6 +7,6 @@ issues = [
     "Does not share all user activity logging with the enterprise organization",
     "Logged changes don't include both the new & old values",
 ]
-percent_increase = "FIXME%"
-pricing_source = "FIXME"
-updated_at = 2023-01-19T00:00:00.000Z
+gating_mechanism = "Tiered quality"
+source = "https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization#using-the-audit-log-api"
+# https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/about-the-audit-log-for-your-enterprise

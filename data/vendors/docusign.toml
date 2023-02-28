@@ -1,0 +1,8 @@
+name = "DocuSign"
+url = "https://www.docusign.com/"
+grade = "C"
+issues = [
+    "Collection: Small page limits"
+]
+gating_mechanism = "Additional SKU"
+source = "https://support.docusign.com/s/document-item?language=en_US&rsc_301=&bundleId=jux1643235969954&topicId=poz1578456669909.html&_LANG=enus"

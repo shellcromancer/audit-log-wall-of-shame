@@ -4,6 +4,6 @@ grade = "A"
 issues = [
     "None noted at this time",
 ]
-percent_increase = "FIXME%"
-pricing_source = "FIXME"
-updated_at = 2023-01-19T00:00:00.000Z
+gating_mechanism = "Higher Tier (Enterprise Grid only)"
+# https://app.slack.com/plans/T0F7Z5R08
+source = "https://api.slack.com/admins/audit-logs" 
