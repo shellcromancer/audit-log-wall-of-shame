@@ -1,0 +1,8 @@
+name = "Zendesk"
+url = "https://www.zendesk.com/"
+grade = "B"
+issues = [
+    "No issues noted at this time."
+]
+gating_mechanism = "Higher Tier (Enterprise only)"
+source = "https://developer.zendesk.com/api-reference/ticketing/account-configuration/audit_logs/"
