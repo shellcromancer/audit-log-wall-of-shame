@@ -1,0 +1,11 @@
+name = "JAMF"
+url = "https://www.jamf.com"
+grade = "D"
+issues = [
+    "Can only export logs via the UI, in batches of 500 messages per export.",
+    "If you don't want to use the UI, you have to manually poll each machine in your environment to get the machines audit logs.",
+    "JAMF Compliance Reporter has better audit logs. (Not part of the base JAMF install)",
+    "Admin audit log events extremely sparse for the events that have them.",
+]
+gating_mechanism = "JAMF Compliance Reporter & JAMF PRO"
+source = "https://learn.jamf.com/en-US/bundle/jamf-protect-documentation/page/Audit_Logs.html"
