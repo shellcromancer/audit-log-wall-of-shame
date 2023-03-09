@@ -1,4 +1,4 @@
-name = "JAMF"
+name = "JAMF PRO"
 url = "https://www.jamf.com"
 grade = "D"
 issues = [
@@ -7,5 +7,5 @@ issues = [
     "JAMF Compliance Reporter has better audit logs. (Not part of the base JAMF install)",
     "Admin audit log events extremely sparse for the events that have them.",
 ]
-gating_mechanism = "JAMF Compliance Reporter & JAMF PRO"
+gating_mechanism = "Higher Tier (Enterprise+) & Additional SKUs (Compliance Reporter)"
 source = "https://learn.jamf.com/en-US/bundle/jamf-protect-documentation/page/Audit_Logs.html"
