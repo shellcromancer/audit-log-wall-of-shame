@@ -1,6 +1,5 @@
 name = "JAMF PRO"
 url = "https://www.jamf.com"
-grade = "D"
 issues = [
     "Can only export logs via the UI, in batches of 500 messages per export.",
     "If you don't want to use the UI, you have to manually poll each machine in your environment to get the machines audit logs.",

@@ -1,6 +1,5 @@
 name = "LastPass"
 url = "https://www.lastpass.com/"
-grade = "C"
 issues = [
     "Poor support for Enterprise API to pull audit logs",
     "Lack of external documentation on what event types are available and what they represent",

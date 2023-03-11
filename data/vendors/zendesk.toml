@@ -1,6 +1,5 @@
 name = "Zendesk"
 url = "https://www.zendesk.com/"
-grade = "B"
 issues = [
     "No issues noted at this time."
 ]
