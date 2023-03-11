@@ -34,18 +34,18 @@ For example, added sources may only provide audit logs to high paying enterprise
 
 Improving security engineers experience with audit logs spans across: the log content, how engineers can collect them.
 
-*Log Content*
+#### Log Content
 - Event types cover all actions taken in the system and include critical fields, such as source ip address.
 - Audit logs have external facing documentation on event types.
 - Logs contain enough information to attribute activity to a user within the platform.
 - The ability to get detailed audit logs is part of the core product or reasonably priced.
 
-*Log Collection*
+#### Log Collection
 - The ability exists to stream logs to a cloud storage or SIEM provider (such as logpush to S3). Otherwise the API to self-retrieve logs is straightforward, documented and allows engineers to easily retrieve their logs. 
 - Log collection makes it possible for event IDs to be sorted and straightforward in order to not miss log events or get duplicate events in the pipeline.
 - There is good log formatting and data structure choice, making it easy to parse logs once they are retrieved.
 
-*Quality & Consistency*
+ #### Quality & Consistency
 - There is log consistency across product versioning and operating systems, including when pulling the logs. Backwards compatibility introduced when needed.
 - Low rate of log quality related incidents. Logs are reliable and can be taken as a source of truth.
 - There is limited latency between when an action occurs and when the log event is available.

@@ -7,5 +7,5 @@ issues = [
     "Lack of metadata surrounding specific event types, such as failed authentication attempts to the console",
     "Not all events are logged, which are demonstrated by exploits found by attackers",
 ]
-gating_mechanism = "Usage Based"
+gating_mechanism = "Usage Based Billing"
 source = "https://aws.amazon.com/cloudtrail/pricing/"
