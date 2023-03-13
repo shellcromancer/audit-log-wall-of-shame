@@ -1,6 +1,5 @@
 name = "Atlassian Cloud"
 url = "https://jira.atlassian.com/"
-grade = "A"
 issues = [
     "None noted at this time.",
 ]

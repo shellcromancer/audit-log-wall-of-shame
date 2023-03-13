@@ -1,6 +1,5 @@
 name = "Stripe"
 url = "https://stripe.com/"
-grade = "F"
 issues = [
     "Logs only a subset of activity, no administrative audit logging",
     "Lack of documentation on what security logging is available",

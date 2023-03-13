@@ -5,13 +5,11 @@
 		"body": [
 			"name = \"$1\"",
 			"url = \"$2\"",
-			"grade = \"$3\"",
 			"issues = [",
 			"\t\"$0\"",
 			"]",
-			"gating_mechanism = \"$4\"",
-			"source = \"$5\"",
-
+			"gating_mechanism = \"$3\"",
+			"source = \"$4\"",
 		],
 		"description": "Create new vendor entry"
 	}

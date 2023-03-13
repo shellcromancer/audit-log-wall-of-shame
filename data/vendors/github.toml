@@ -1,6 +1,5 @@
 name = "GitHub"
 url = "https://github.com"
-grade = "C"
 issues = [
     "Logs don't link to company email",
     "Standard logs don't include IPs",
