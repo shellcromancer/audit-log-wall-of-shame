@@ -1,0 +1,8 @@
+name = "Terraform Cloud"
+url = "https://www.hashicorp.com/products/terraform"
+issues = [
+    "Lacking audit data (Requests: source IP, user-agent. Changes: previous and current values)",
+    "Lacking response documentation (Possible resource values, meta KVs)"
+]
+gating_mechanism = "Higher Tier (Plus/Enterprise only)"
+source = "https://www.hashicorp.com/products/terraform/pricing"
