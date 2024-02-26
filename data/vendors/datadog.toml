@@ -1,0 +1,7 @@
+name = "Datadog"
+url = "https://www.datadoghq.com"
+issues = [
+    "2% of the monthly spend, which is a lot comparing with fixed contract add in or even free",
+]
+gating_mechanism = "Usage Based Billing"
+source = "https://www.datadoghq.com/pricing/?product=audit-trail#products"
