@@ -1,0 +1,7 @@
+name = "Tines"
+url = "https://www.tines.com"
+issues = [
+    ""
+]
+gating_mechanism = "Higher Tier (Paid+)"
+source = "https://explained.tines.com/en/articles/7007597-understanding-tines-pricing-plans"
