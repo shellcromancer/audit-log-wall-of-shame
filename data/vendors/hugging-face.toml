@@ -1,0 +1,7 @@
+name = "Hugging Face"
+url = "https://huggingface.co"
+issues = [
+    "No API collection",
+]
+gating_mechanism = "Higher Tier (Enterprise Hub only)"
+source = "https://huggingface.co/docs/hub/audit-logs"
