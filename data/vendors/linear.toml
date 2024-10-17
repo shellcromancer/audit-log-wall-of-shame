@@ -1,0 +1,4 @@
+name = "Linear"
+url = "https://www.linear.app/homepage"
+gating_mechanism = "Higher Tier (Enterprise+)"
+source = "https://linear.app/pricing"
