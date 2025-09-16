@@ -1,0 +1,8 @@
+name = "Braze"
+url = "https://www.braze.com/"
+issues = [
+    "No API collection, manual download to CSV only",
+    "Lack of documentation on what event types represent",
+]
+gating_mechanism = "None"
+source = "https://www.braze.com/docs/user_guide/administrative/app_settings/company_settings/security_settings/#downloading-a-security-event-report"
