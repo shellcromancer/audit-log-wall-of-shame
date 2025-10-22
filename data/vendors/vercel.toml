@@ -1,0 +1,7 @@
+name = "Vercel"
+url = "https://vercel.com"
+issues = [
+    "Custom SIEM Log Streaming costs extra",
+]
+gating_mechanism = "Higher Tier (Enterprise plan only)"
+source = "https://vercel.com/docs/audit-log" 
