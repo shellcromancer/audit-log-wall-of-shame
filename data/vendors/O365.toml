@@ -1,0 +1,7 @@
+name = "Office 365 Unified Audit Log"
+url = "https://learn.microsoft.com/en-us/purview/audit-log-activities"
+issues = [
+    "Delay in certain events, depending on the source platform i.e. Outlook, Exchange, SharePoint etc. 'New-InboxRule' events, for example, can take up to 45 minutes to appear. This can result in a False Negative scenario in SIEMs that use a lookback period, as it may only look back 5 minutes against the time generated field." 
+]
+gating_mechanism = "None"
+source = "https://learn.microsoft.com/en-us/purview/audit-log-activities"
